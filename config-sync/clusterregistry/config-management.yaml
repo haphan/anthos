@@ -1,14 +1,14 @@
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: cluster-onprem
+  name: cluster-onprem-1
   labels:
     location: japan
 ---
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: cluster-gke
+  name: cluster-gke-1
   labels:
     location: singapore
 ---
