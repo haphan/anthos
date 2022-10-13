@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     configmanagement.gke.io/cluster-selector: cluster-onprem-selector
-  name: contacts-dc-on-gcp
+  name: contacts-dc-onprem
   namespace: boa
 spec:
   selector:

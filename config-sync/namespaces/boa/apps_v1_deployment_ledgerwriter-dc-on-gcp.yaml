@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     configmanagement.gke.io/cluster-selector: cluster-onprem-selector
-  name: ledgerwriter-dc-on-gcp
+  name: ledgerwriter-dc-onprem
   namespace: boa
 spec:
   selector:

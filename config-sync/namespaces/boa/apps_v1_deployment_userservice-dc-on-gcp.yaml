@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     configmanagement.gke.io/cluster-selector: cluster-onprem-selector
-  name: userservice-dc-on-gcp
+  name: userservice-dc-onprem
   namespace: boa
 spec:
   selector:

@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     configmanagement.gke.io/cluster-selector: cluster-onprem-selector
-  name: loadgenerator-dc-on-gcp
+  name: loadgenerator-dc-onprem
   namespace: boa
 spec:
   replicas: 1
